@@ -1,0 +1,23 @@
+// Escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años.
+
+// Variable: Forma de guardar datos o valores en la computadora que se pueden recuperar para volver a usar mediante un nombre.
+//           Son como cajas. Cada caja es una variable. Los valores de la variable son el contenido de la caja.
+//           El nombre de la caja es el nombre de la variable.
+
+// Strings: Bloque de texto compuesto por caracteres (letras, espacios, números o símbolos) 
+//          que se escribe entre comillas simples '' o entre comillas dobles "".
+
+// Función: Bloque de código que realiza una tarea específica cuando se ejecuta.
+
+// Argumentos de la función: Son variables dentro de la función que toman cierto valor cuando la función se ejecuta.
+
+// Declaración return: Se usa para que la función que ejecutemos devuelva una respuesta.
+
+// Declaraciones: Las declaraciones son instrucciones que le damos a la computadora para que realice una acción.
+//                Estas instrucciones describen el nombre de una variable o de una función.
+//                Dicen qué significa el nombre y cómo debería usarse la variable o función.
+
+// Declaraciones if: son instrucciones que controlan las respuestas que recibimos dependiendo de que se cumpla una condición.
+
+// Valores booleanos: Valores que tienen sólo dos opciones. Por ejemplo, 0 o 1, activar o desactivar, verdadero o falso.
+//                    En Javascript los dos valores booleanos posibles son verdadero o falso (true, false).
