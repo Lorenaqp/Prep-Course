@@ -71,12 +71,12 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (str1 == str2) {
+  if(str1.length === str2.length) {
     return true;
-  } else; {
+  } else {
     return false;
   }
-}
+  }
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
@@ -110,7 +110,7 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num === 0) {
+  if (num % 2 === 0) {
     return true;
   } else {
     return false;
@@ -121,7 +121,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num === 1) {
+  if (num % 2 === 1) {
     return true;
   } else {
     return false;
@@ -200,7 +200,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return 'Hola' + nombre + '!';
+  return 'Hola ' + nombre + '!';
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -241,7 +241,7 @@ function esVocal(letra){
   if(letra.length > 1){
     return "Dato incorrecto"
   }
-  if(letra === "a", "e", "i", "o", "u"){
+  if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
     return "Es vocal"
   }
   return "Dato incorrecto"
